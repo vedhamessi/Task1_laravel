@@ -18,4 +18,4 @@ Go to Base_url
 Go to Base_url/login
 
 ## Set customer as an admin
-If you want to create a another admin account means you need to set in mysql->database->table->field Name (is_admin). Change value from 0 to 1 means its a admin account. Now You can login also and check.
+If you want to create a another admin account means you need to set a value in mysql->database->table->field Name (is_admin). Change value from 0 to 1 means its a admin account. Now You can login also and check.
