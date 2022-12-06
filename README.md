@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Register a form
+Base_url
+
+## Admin login form
+Base_url/login
+
+## Set customer as an admin
+If you want to create a another admin account means you need to set in mysql->database->table->field Name (is_admin). Change value from 0 to 1 means its a admin account. Now You can login also and check.
