@@ -11,6 +11,10 @@
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Set up a project
+step1 First you need to run 'composer install' in cmd
+step2 run 'php artisan migrate' in cmd
+
 ## Register a form
 Go to Base_url
 
