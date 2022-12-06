@@ -1,0 +1,166 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+.registration{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.registration label.error, #login_form label.error, .users_details label.error{
+	color: #ff3030;
+	font-size: 12px;
+}
+.registration form .col-md-4, .registration form .col-md-12, .registration form .col-md-6, .users_details form .col-md-4, .users_details form .col-md-12, .users_details form .col-md-6{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.iti.iti--allow-dropdown{
+	width: 100%;
+}
+.form-control:focus, .form-select:focus{
+	box-shadow: none;
+	border-color: #00dfc0;
+}
+.form-check-input:focus{
+	background: #00dfc0;
+	box-shadow: none;
+	border-color: #00dfc0;
+}
+.form-check-input:checked{
+	background: #00dfc0;
+	box-shadow: none;
+	border-color: #00dfc0;
+}
+.ct_btn{
+	margin: 30px;
+	background: #00dfc0;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	color: #fff;
+	transition: 0.3s;
+	clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+}
+.ct_btn:hover{
+	transition: 0.3s;
+	clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0% 100%, 10% 50%, 0% 0%);
+}
+.login-box{
+    /*margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);*/
+    background: #00dfc0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    box-shadow: 2px 2px 4px #868686;
+    width: 350px;
+    max-width: 350px;
+    height: 380px;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 1;
+    height: auto;
+}
+.login-title img{
+    width: 150px;
+}
+.login-title{
+    text-align: center;
+}
+      .app-response-error{
+  color: red;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.app-response-success{
+  color: green;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+.auth.theme-one .auto-form-wrapper{
+  padding-bottom: 30px;
+  background: #d52120;
+}
+.form-group label{
+  color: #fff;
+}
+.auth.theme-one .auto-form-wrapper .form-group .input-group .form-control{
+  border-radius: 0px;
+}
+.auth.theme-one .auto-form-wrapper .form-group .input-group .input-group-append .input-group-text{
+  border-radius: 0px;
+}
+.submit-btn.btn-block{
+  border: 1px solid #fff;
+  background: transparent;
+  margin-top: 30px;
+}
+.logo-login, .loginbttm{text-align: center;}
+/*.form-control{background: transparent;border: 1px solid #353535;color: #fafafa;}*/
+.loginbttm .login-button button{background: transparent;border: 1px solid #353535;color: #fafafa;font-size: 12px;padding: 9px 30px;}
+.login_valid p{background: red;color: #fafafa;padding: 10px;margin: 0;margin-top: 20px;margin-left: 13px;margin-right: 13px;}
+.login-fl{display: flex;height: 100vh;width: 900px;max-width: 900px;margin: auto;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);
+}
+.login-box1{
+    margin: 15px;
+}
+.login-h-img img{
+    width: 100%;
+    /*margin-left: -200px;*/
+}
+.login-form .form-control{background: transparent;border-color: #fff;border-radius: 3px;}
+.login-form .form-group{padding-bottom: 15px;}
+.login-form .loginbttm .btn{background: #fff;color: #00dfc0;border: 1px solid #fff;border-radius: 3px;margin-top: 10px;font-size: 14px; transition: 0.3s;clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);}
+.login-form .loginbttm .btn:hover{transition: 0.3s;clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0% 100%, 10% 50%, 0% 0%);}
+
+.navbar.cs_navbar{background-color: #00dfc0 !important;}
+.navbar.cs_navbar a{color: #fff;}
+.cs_navbar .dropdown-menu{background: #00dfc0;border: none;}
+.cs_navbar .dropdown-menu li a:hover{background: #fff;color: #00dfc0;}
+.navbar-toggler{position: relative;}
+.navbar-toggler:focus, .navbar-toggler{box-shadow: none;border: none;}
+.navbar-toggler-icon{width: 20px;height: 1px;background: white;}
+.navbar-toggler-icon::before{position: absolute;width: 20px;height: 1px;background: white;content: '';bottom: 6px;}
+.navbar-toggler-icon::after{position: absolute;width: 20px;height: 1px;background: white;content: '';top: 11px;}
+
+section.dashboard, section.users_details{padding: 70px 0px;}
+section.users_details table{}
+section.users_details table tr{border-bottom: 1px solid #00dfc0;}
+section.users_details table thead{background: #00dfc0;color: #fff;}
+section.users_details table tr th{}
+section.users_details table tr td{}
+section.users_details table tr td, section.users_details table tr th{padding: 10px 20px;}
+section.users_details .ct_btn{text-decoration: none;margin: 0;}
+section.users_details .ct_btn:hover{color: #fff;}
+section.users_details td svg{width: 30px;}
+section.users_details table tr:nth-of-type(odd){background: #00dfc01a;}
+section.users_details table tr:nth-of-type(even){background: #00dfc038;}
+.main_head span a{font-size: 14px;}
+.main_head span a:hover{clip-path: polygon(100% 0, 90% 50%, 100% 100%, 20% 100%, 0 50%, 20% 0);}
+.main_head{display: flex;}
+.main_head span{margin-left: auto;margin-right: 0;}
+section.users_details table tr.disabled{display: none;}
+
+@media only screen and (max-width: 991px){
+	.login-h-img{
+		background: transparent !important;
+		display: none;
+	}
+	.login-fl{
+		margin: auto;
+		position: absolute;
+		top: auto;
+		left: auto;
+		transform: none;
+		width: 100%;
+		max-width: 100%;
+		left: 0;
+	}
+	.login-fl .login-box{
+		width: 100%;
+		margin: auto;
+	}
+}
